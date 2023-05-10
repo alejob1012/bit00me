@@ -1,0 +1,151 @@
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    /* Ajuste de tamaño de fuente y margenes para dispositivos móviles */
+    body {
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    /* Estilos para el encabezado */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+      color: #c51212;
+    }
+  
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    header nav li {
+      margin: 10px 0;
+    }
+  
+    header nav a {
+      display: inline-block;
+      padding: 10px;
+      color: #e40c0c;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  
+    /* Estilos para la sección de noticias */
+    section {
+      padding: 20px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+  
+    section article {
+      margin-bottom: 20px;
+    }
+  
+    section article img {
+      width: 100%;
+    }
+  
+    section article h3 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    section article p {
+      margin-top: 0;
+      line-height: 1.5;
+    }
+  
+    section article a {
+      display: inline-block;
+      padding: 5px;
+      color: #fff;
+      background-color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  
+    /* Estilos para la sección de conciertos */
+    aside {
+      padding: 20px;
+    }
+  
+    aside h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+  
+    aside ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    aside li {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Estilos para dispositivos de escritorio */
+  @media screen and (min-width: 768px) {
+    /* Ajuste de tamaño de fuente y margenes para dispositivos de escritorio */
+    body {
+      font-size: 18px;
+      margin: 20px;
+    }
+  
+    /* Estilos para el encabezado */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+  
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+  
+    header nav {
+      display: flex;
+    }
+  
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+  
+    header nav li {
+      margin: 0 10px;
+    }
+  
+    header nav a {
+      display: inline-block;
+    }
