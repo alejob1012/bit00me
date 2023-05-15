@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  article {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  article p {
+    margin-bottom: 10px;
+  }
+  
+  article a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  article a:hover {
+    background-color: #005ea3;
+  }
+  
+  aside {
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  aside h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos adicionales */
+  .grid:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  /* Animaciones y efectos */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fade-in 1s ease;
+  }
+  
+  .flip:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(to right, #0077cc, #0099ff);
+  }
+  
+  
