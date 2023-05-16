@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background: radial-gradient(circle at top left, #f046a3, #ffffff);
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos de las últimas noticias */
+  .news {
+    padding: 20px 0;
+  }
+  
+  .news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .news-article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .news-article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .news-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .news-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .news-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .news-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .news-details p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos del aside de reseñas */
+  aside {
+    flex-basis: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilos responsive */
+  @media (max-width: 768px) {
+    .news-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

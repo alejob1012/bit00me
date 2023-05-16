@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Opiniones Musicales</title>
+    <meta name="description" content="Formulario de opiniones musicales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="reseñas.html">Reseñas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+    </header>
+    <main>
+        <section class="opinions">
+            <div class="container">
+                <h2>Opiniones Musicales</h2>
+                <form action="enviar_opinion.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="opinion">Opinión:</label>
+                    <textarea id="opinion" name="opinion" required></textarea>
+                    
+                    <label for="tipo">Tipo de opinión:</label>
+                    <select id="tipo" name="tipo">
+                        <option value="evento">Evento Musical</option>
+                        <option value="disco">Disco de Música</option>
+                    </select>
+                    
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                    
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Coloca aquí el código HTML de tu pie de página si lo deseas -->
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Música News</title>
+    <meta name="description" content="Página de noticias sobre música">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylereseñas.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="reseñas.html">Reseñas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="logo2.png" alt="Logo">
+            </div>
+    </header>
+    <footer>
+        <form type="get">
+            <fieldset>
+              <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+          
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo"><br>
+          
+            <label for="Telefono">Telefono:</label>
+            <input type="tel" id="Telefono" name="Telefono"><br>
+          
+            <label for="opinion">Opinión:</label><br>
+            <textarea id="opinion" name="opinion" rows="5" cols="50"></textarea><br>
+            <br />
+            <label for="pais">Seleccione su pais de origen</label>
+            <select name="pais" id="pais">
+              <option value="co">Colombia</option>
+              <option value="ve">Venezuela</option>
+              <option value="en">EEUU</option>
+               <br>
+            <input type="submit" value="Enviar">
+        </form>
+            </fieldset>
+    </footer>
+ </body>
+    </html>
