@@ -1,4 +1,4 @@
-/*General*/
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/*Encabezado*/
 header {
   background: linear-gradient(to bottom right, #f2b632, #FF4D00);
   color: #ffffff;
@@ -20,22 +19,22 @@ header {
   z-index: 1;
 }
 
-/*Tamaño texto*/
+
 header h1 {
   font-size: 4rem;
 }
 
-/*Lista Horizontal*/
+
 header ul {
   display: flex;
 }
 
-/*Separacion lista*/
+
 header li {
   margin-left: 30px;
 }
 
-/*Texto lista*/
+
 header a {
   color: #ffffff;
   text-decoration: none;
@@ -46,7 +45,7 @@ header a:hover {
   color: #f2b632;
 }
 
-/* Estilos del main */
+
 main {
   margin-top: 160px;
 }
@@ -153,9 +152,9 @@ h2 {
 }
 
 
-/* Estilos para dispositivos con pantalla pequeña */
+
 @media only screen and (max-width: 600px) {
-  /* Estilos para la navegación */
+  
   nav {
       display: flex;
       flex-direction: column;
@@ -163,34 +162,34 @@ h2 {
       justify-content: center;
   }
   
-  /* Estilos para las imágenes */
+  
   img {
       max-width: 100%;
       height: auto;
   }
   
-  /* Estilos para los textos */
+
   h1, h2, p {
       font-size: 2rem;
       text-align: center;
   }
 }
 
-/* Estilos para dispositivos con pantalla grande */
+
 @media only screen and (min-width: 601px) {
-  /* Estilos para la navegación */
+  
   nav {
       display: flex;
       justify-content: flex-end;
   }
   
-  /* Estilos para las imágenes */
+
   img {
       max-width: 50%;
       height: auto;
   }
   
-  /* Estilos para los textos */
+  
   h1, h2, p {
       font-size: 3rem;
       text-align: left;

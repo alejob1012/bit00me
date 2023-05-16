@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: #0077cc;
   }
   
-  /* Estilos del encabezado */
+
   header {
     background-color: #333;
     color: #fff;
@@ -39,7 +39,7 @@ body {
     font-size: 20px;
   }
   
-  /* Estilos del contenido principal */
+
   main {
     max-width: 1000px;
     margin: 0 auto;
@@ -104,7 +104,7 @@ body {
     font-weight: bold;
   }
   
-  /* Estilos del pie de página */
+
   footer {
     background-color: #333;
     color: #fff;
@@ -112,14 +112,14 @@ body {
     padding: 20px;
   }
   
-  /* Estilos adicionales */
+
   .grid:after {
     content: "";
     display: block;
     clear: both;
   }
   
-  /* Animaciones y efectos */
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -165,14 +165,13 @@ body {
 
 
 
-  /* Estilos para el contenido principal */
 main {
     padding: 20px;
   }
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Cambiamos el tamaño de las columnas */
+    grid-template-columns: repeat(2, 1fr); 
     grid-gap: 20px;
   }
   
@@ -181,38 +180,37 @@ main {
     padding: 20px;
   }
   
-  /* Estilos para dispositivos con ancho de pantalla menor o igual a 768px */
   @media screen and (max-width: 768px) {
     .grid {
-      grid-template-columns: 1fr; /* Cambiamos a una columna en dispositivos móviles */
+      grid-template-columns: 1fr; 
     }
   }
   
 
-  /* Estilos adicionales específicos para esta página */
-/* ... */
 
-/* Estilos para dispositivos con ancho de pantalla mayor a 768px */
+
+
+
 @media screen and (min-width: 768px) {
     main {
       display: grid;
-      grid-template-columns: 1fr 300px; /* Cambiamos a dos columnas, una para los article y otra para el aside */
+      grid-template-columns: 1fr 300px; 
       grid-gap: 20px;
     }
   
     .grid {
-      grid-template-columns: 1fr; /* Los article ocupan una columna */
+      grid-template-columns: 1fr; 
     }
   
     aside {
-      order: 2; /* Cambiamos el orden del aside para que aparezca en la parte derecha */
+      order: 2; 
     }
   }
   
-  /* Estilos para dispositivos con ancho de pantalla menor o igual a 768px */
+  
   @media screen and (max-width: 768px) {
     .grid {
-      grid-template-columns: 1fr; /* Los article ocupan una columna */
+      grid-template-columns: 1fr; 
     }
   }
   

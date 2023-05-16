@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     padding: 20px;
   }
   
-  /* Estilos del encabezado */
+
   header {
     background: radial-gradient(circle at top left, #f046a3, #ffffff);
     color: #fff;
@@ -45,7 +45,7 @@ body {
     height: auto;
   }
   
-  /* Estilos de las últimas noticias */
+
   .news {
     padding: 20px 0;
   }
@@ -97,13 +97,13 @@ body {
     line-height: 1.5;
   }
   
-  /* Estilos del aside de reseñas */
+
   aside {
     flex-basis: 30%;
     background-color: #f2f2f2;
     padding: 20px;
   }
-  /* Estilos del pie de página */
+
   footer {
     background-color: #333;
     color: #fff;
@@ -111,7 +111,7 @@ body {
     text-align: center;
   }
   
-  /* Estilos responsive */
+
   @media (max-width: 768px) {
     .news-list {
       grid-template-columns: 1fr;

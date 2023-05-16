@@ -37,7 +37,7 @@ body {
   }
 
   
-  /* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -46,7 +46,7 @@ body {
     color: #333;
   }
   
-  /* Encabezado */
+
   header {
     background-color: #333;
     padding: 10px;
@@ -78,7 +78,7 @@ body {
     color: #ff5e00;
   }
   
-  /* Contenido principal */
+
   main {
     display: flex;
     flex-direction: row;
@@ -139,7 +139,7 @@ body {
     color: #333;
   }
   
-  /* Pie de página */
+ 
   footer {
     background-color: #333;
     padding: 10px;
@@ -147,7 +147,7 @@ body {
     text-align: center;
   }
   
-  /* Media queries para dispositivos móviles */
+ 
   @media (max-width: 768px) {
     header {
       padding: 10px 20px;
@@ -181,7 +181,7 @@ body {
     }
   }
   
-  /* Media queries para tabletas */
+
   @media (min-width: 769px) and (max-width: 1024px) {
     .grid {
       grid-template-columns: repeat(3, 1fr);
@@ -189,7 +189,7 @@ body {
     }
   }
   
-  /* Media queries para pantallas grandes */
+ 
   @media (min-width: 1025px) {
     .grid {
       grid-template-columns: repeat(4, 1fr);
@@ -198,7 +198,7 @@ body {
   }
 
   
-  /* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -207,7 +207,7 @@ body {
     color: #333;
   }
   
-  /* Encabezado */
+
   header {
     background-color: #333;
     padding: 10px;
@@ -239,7 +239,7 @@ body {
     color: #ff5e00;
   }
   
-  /* Contenido principal */
+ 
   main {
     display: flex;
     flex-direction: row;
