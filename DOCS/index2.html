@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MultiNews</title>
+  <link rel="stylesheet" href="4.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+
+    main {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    #destacados-container {
+      flex-basis: 70%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    article {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    aside {
+      flex-basis: 30%;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+   
+  </style>
+
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo2.png" alt="">
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="musica/index.html">Música</a></li>
+        <li><a href="cine.html">Cine</a></li>
+        <li><a href="videojuegos.html">Videojuegos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="destacados-container">
+      <h2>Artículos destacados</h2>
+      <div class="grid">
+        <article>
+          <h3>Here Comes The Sun de The Beatles alcanza mil millones de reproducciones en Spotify
+          </h3>
+          <img src="https://caracoltv.brightspotcdn.com/dims4/default/cd7d841/2147483647/strip/true/crop/1500x720+0+0/resize/1000x480!/format/webp/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fshock%2Fcontent_files%2F2017_07%2Fimage_article%2Fthe_beatles.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+          <a href="#">Leer más</a>
+        </article>
+        <article>
+          <h3>Título del artículo 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+          <a href="#">Leer más</a>
+        </article>
+        <article>
+          <h3>Título del artículo 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem
+            vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <a href="#">Leer más</a>
+          </article>
+          <article>
+            <h3>Título del artículo 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <a href="#">Leer más</a>
+          </article>
+          <article>
+            <h3>Título del artículo 5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <a href="#">Leer más</a>
+          </article>
+          <article>
+            <h3>Título del artículo 6</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <a href="#">Leer más</a>
+          </article>
+        </div>
+      </section>
+  
+      <aside>
+        <h2>Noticias de nuevos conciertos anunciados</h2>
+        <article>
+          <h3>Título de la noticia 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <a href="#">Leer más</a>
+        </article>
+        <article>
+          <h3>Título de la noticia 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <a href="#">Leer más</a>
+        </article>
+        <article>
+          <h3>Título de la noticia 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <a href="#">Leer más</a>
+        </article>
+      </aside>
+    </main>
+  
+    <footer>
+      <p>Derechos reservados &copy; 2023 MultiNews</p>
+    </footer>
+  </body>
+  </html>
+  
