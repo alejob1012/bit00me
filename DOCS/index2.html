@@ -3,6 +3,7 @@
 <head>
   <title>MultiNews</title>
   <link rel="stylesheet" href="4.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -35,13 +36,28 @@
       padding: 10px;
     }
 
-    aside {
+    @media (max-width: 768px) {
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+aside {
       flex-basis: 30%;
       background-color: #f2f2f2;
       padding: 20px;
     }
+    
 
-   
+    img {
+  width: 500px; 
+  height: auto; 
+  align-items: center;
+    }
+
+
+
+    
   </style>
 
 
@@ -53,11 +69,10 @@
   </div>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="musica/index.html">Música</a></li>
-        <li><a href="cine.html">Cine</a></li>
-        <li><a href="videojuegos.html">Videojuegos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li class="googlefonts"><a href="indexmusica.html">Música</a></li>
+        <li class="googlefonts"><a href="cine.html">Cine</a></li>
+        <li class="googlefonts"><a href="viju.html">Videojuegos</a></li>
+        <li class="googlefonts"><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
@@ -67,37 +82,40 @@
       <h2>Artículos destacados</h2>
       <div class="grid">
         <article>
-          <h3>Here Comes The Sun de The Beatles alcanza mil millones de reproducciones en Spotify
-          </h3>
+          <h3>Here Comes The Sun de The Beatles alcanza mil millones de reproducciones en Spotify</h3>
           <img src="https://caracoltv.brightspotcdn.com/dims4/default/cd7d841/2147483647/strip/true/crop/1500x720+0+0/resize/1000x480!/format/webp/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fshock%2Fcontent_files%2F2017_07%2Fimage_article%2Fthe_beatles.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
           <a href="#">Leer más</a>
         </article>
         <article>
-          <h3>Título del artículo 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+          <h3>Arabia Saudí aumenta su inversión en Electronic Arts en un 55 %</h3>
+          <img src="https://media.vandal.net/i/1280x720/5-2023/202351618352521_1.jpg.webp" alt="">
+          <p>Arabia Saudí ha duplicado su inversión en Electronic Arts a través del Public Investment Fund (PIF) gestionado por el príncipe heredero Mohammed bin Salman.</p>
           <a href="#">Leer más</a>
         </article>
         <article>
-          <h3>Título del artículo 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem
-            vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+          <h3>Una obra maestra de la ciencia ficción cobra vida en Netflix: Nieve tóxica, alienígenas y uno de los mejores actores del mundo</h3>
+          <img src="https://es.web.img2.acsta.net/r_654_368/img/f4/d8/f4d8c6a51e1d50da8fc7045cb46ac77d.jpg" alt="">
+          <p>Ya intentó adaptarse en los 60, pero no ha sido hasta ahora, seis décadas más tarde, cuando por fin es una realidad. Lo será, al menos, de la mano de Netflix, que ya ha hecho oficial la adaptación de una obra maestra de la ciencia ficción en forma de cómic: la aclamada obra argentina El Eternauta que Héctor G. Oesterheld y Francisco Solano López publicaron entre 1957 y 1959 y que es una de las obras más icónicas del género no solo en su país, sino en toda Latinoamérica.</p>
             <a href="#">Leer más</a>
           </article>
           <article>
-            <h3>Título del artículo 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <h3>VJs en Colombia: ¿Quién está detrás de las visuales de nuestros conciertos favoritos?</h3>
+            <img src="https://caracoltv.brightspotcdn.com/dims4/default/222a792/2147483647/strip/true/crop/3110x2074+0+0/resize/1000x667!/format/webp/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2Fdf%2Fde%2F90e6e72f4574af5c43f722bd0e7e%2Fbaum-park-medellin-2023-x-s-mesa-526-2.jpg" alt="">
+            <p>Los eventos de música en vivo en Colombia parecen concentrarse cada vez más en el componente visual de los shows que presentan. Las visuales complementan la experiencia que de entrada la logística, los venues y los artistas crean para las personas que asisten a los conciertos y festivales que tenemos en el país            </p>
             <a href="#">Leer más</a>
           </article>
           <article>
-            <h3>Título del artículo 5</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
+            <h3>Este juego de terror inspirado en la era del primer PlayStation llegará pronto a consolas</h3>
+            <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/797183/797183.png" alt="">
+            <p>Nos llegan buenas noticias para todos los amantes de los juegos de terror, en especial para aquellos que extrañan los títulos con un estilo similar a la era del primer PlayStation, ya que muy pronto llegará No One Lives Under the Lighthouse.</p>
             <a href="#">Leer más</a>
           </article>
           <article>
-            <h3>Título del artículo 6</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt. Sed vitae sollicitudin magna.</p>
-            <a href="#">Leer más</a>
+            <h3>Imagine Dragons lanza video de “Crushed”, canción que narra la guerra en Ucrania</h3>
+            <img src="https://www.elespectador.com/resizer/mXAWuhnhAhEV3SDaOBJ7OlH93-8=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/HXOTFDJWGNBXVIJCLJRKIZ545Y.jpg" alt="">
+            <p>La agrupación estadounidense Imagine Dragons, publicó el videoclip de su sencillo “Crushed”, que narra la historia de Sasha, un adolescente de 14 años que sobrevivió a los bombardeos durante la invasión rusa a Ucrania.</p>
+            <a href="imgdg.html">Leer más</a>
           </article>
         </div>
       </section>
@@ -105,18 +123,27 @@
       <aside>
         <h2>Noticias de nuevos conciertos anunciados</h2>
         <article>
-          <h3>Título de la noticia 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <h3>Fonseca viajante tour</h3>
+          <p>Jueves 25 de mayo
+            Plaza de toros La macarena
+            Medellin, Antioquia
+          </p>
           <a href="#">Leer más</a>
         </article>
         <article>
-          <h3>Título de la noticia 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <h3>RBD: Soy rebelde tour</h3>
+          <p>Viernes 3 a domingo 5 de noviembre
+            Estadio Atanasio Girardot
+            Medellin, Antioquia
+          </p>
           <a href="#">Leer más</a>
         </article>
         <article>
-          <h3>Título de la noticia 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at diam at justo iaculis vestibulum eu ut ex. Integer fringilla sem vel sem feugiat, sit amet pharetra ipsum tincidunt.</p>
+          <h3>RIVALES</h3>
+          <p>Sabado 4 a domingo 5 de noviembre
+            Parque norte
+            Medellin, Antioquia
+          </p>
           <a href="#">Leer más</a>
         </article>
       </aside>
