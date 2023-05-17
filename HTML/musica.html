@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Música News</title>
+    <meta name="description" content="Página de noticias sobre música">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bit00me/CSS/stylemusica.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .news {
+            padding: 20px 0;
+        }
+        .news h2 {
+            font-size: 24px;
+        }
+        .news-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .news-article {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .news-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .news-details h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .news-details p {
+            font-size: 14px;
+            line-height: 1.5;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical;
+        }
+        .read-more {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f046a3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        
+        aside {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        aside h2 {
+            font-size: 24px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+       
+@media (max-width: 768px) {
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+aside {
+      flex-basis: 30%;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="/bit00me/HTML/reseñas.html">Reseñas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="/bit00me/Imagenes/logo2.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main
+    <section class="news">
+        <div class="container">
+            <h2>Últimas noticias</h2>
+            <div class="news-list">
+                <article class="news-article">
+                    <a href="#">
+                        <div class="news-image">
+                            <img src="https://www.elespectador.com/resizer/mXAWuhnhAhEV3SDaOBJ7OlH93-8=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/HXOTFDJWGNBXVIJCLJRKIZ545Y.jpg" alt="Noticia 1">
+                        </div>
+                        <div class="news-details">
+                            <h3>Imagine Dragons lanza video de “Crushed”, canción que narra la guerra en Ucrania</h3>
+                            <p>El tema musical es una dedicatoria a un niño sobreviviente de los bombardeos por parte de Rusia.</p>
+                            <a href="noticia.html" class="read-more">Ampliar noticia</a>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-article">
+                    <a href="#">
+                        <div class="news-image">
+                            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CBDTFDX2RNHGBBTZMQLFITU25E.jpg" alt="Noticia 2">
+                        </div>
+                        <div class="news-details">
+                            <h3>Los Red Hot Chili Peppers vuelven a Chile y Argentina</h3>
+                            <p>La banda de funk punk rock hace realidad el sueño de miles de fans.</p>
+                            <a href="noticia.html" class="read-more">Ampliar noticia</a>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-article">
+                    <a href="#">
+                        <div class="news-image">
+                            <img src="https://caracoltv.brightspotcdn.com/dims4/default/cd7d841/2147483647/strip/true/crop/1500x720+0+0/resize/1000x480!/format/webp/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fshock%2Fcontent_files%2F2017_07%2Fimage_article%2Fthe_beatles.jpg" alt="Noticia 3">
+                        </div>
+                        <div class="news-details">
+                            <h3>Here Comes The Sun de The Beatles alcanza mil millones de reproducciones en Spotify</h3>
+                            <p>Here Comes the Sun de The Beatles es la primera canción del cuarteto en llegar a mil millones de reproducciones en Spotify.</p>
+                            <a href="noticia.html" class="read-more">Ampliar noticia</a>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-article">
+                    <a href="#">
+                        <div class="news-image">
+                            <img src="https://caracoltv.brightspotcdn.com/dims4/default/cd7d841/2147483647/strip/true/crop/1500x720+0+0/resize/1000x480!/format/webp/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fshock%2Fcontent_files%2F2017_07%2Fimage_article%2Fthe_beatles.jpg" alt="Noticia 3">
+                        </div>
+                        <div class="news-details">
+                            <h3>Here Comes The Sun de The Beatles alcanza mil millones de reproducciones en Spotify</h3>
+                            <p>Here Comes the Sun de The Beatles es la primera canción del cuarteto en llegar a mil millones de reproducciones en Spotify.</p>
+                            <a href="noticia.html" class="read-more">Ampliar noticia</a>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <aside style="flex-basis: 30%; background-color: #f2f2f2; padding: 20px; float: right;">
+        <div class="container">
+            <h2>Reseñas</h2>
+            <ul>
+                <li><a href="#">Reseña del nuevo álbum de Coldplay
+                </a></li>
+                <li><a href="#">Reseña del concierto de Beyoncé en el festival Coachella</a></li>
+                <li><a href="#">Reseña del documental "Billie Eilish: The World's a Little Blurry"</a></li>
+            </ul>
+        </div>
+    </aside>
+</main>
+<footer>
+    <div class="container">
+        <p>Todos los derechos reservados &copy; 2023 Música News</p>
+    </div>
+</footer>
+</body>
+</html>
+
